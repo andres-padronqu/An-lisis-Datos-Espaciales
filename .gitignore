@@ -1,0 +1,6 @@
+# Archivos de macOS
+.DS_Store
+
+# Datos crudos de INEGI / DENUE
+data/raw/*
+!data/raw/.gitkeep
