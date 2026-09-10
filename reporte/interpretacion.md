@@ -78,4 +78,4 @@ Este primer mapa permite identificar patrones generales de localización, pero n
 
 ![Mapa de gimnasios en la Ciudad de México](img/mapa_gimnasios_cdmx.png)
 
-[Ver mapa interactivo](../outputs/mapas/mapa_gimnasios_cdmx.html)
+[Ver mapa interactivo](https://andres-padronqu.github.io/An-lisis-Datos-Espaciales/outputs/mapas/mapa_gimnasios_cdmx.html)
