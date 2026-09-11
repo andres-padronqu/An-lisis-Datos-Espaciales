@@ -79,3 +79,39 @@ Este primer mapa permite identificar patrones generales de localización, pero n
 ![Mapa de gimnasios en la Ciudad de México](img/mapa_gimnasios_cdmx.png)
 
 [Ver mapa interactivo](https://andres-padronqu.github.io/An-lisis-Datos-Espaciales/outputs/mapas/mapa_gimnasios_cdmx.html)
+
+## Parte 2 — Mapa corópletico municipal normalizado
+
+### 6. Cruce espacial por alcaldía
+
+Para analizar la distribución de los centros de acondicionamiento físico a nivel de alcaldía, se utilizó la capa de Áreas Geoestadísticas Municipales (AGEM) del Marco Geoestadístico 2025 del INEGI para la Ciudad de México.
+
+Los 2,275 establecimientos identificados en el DENUE fueron convertidos a objetos espaciales de tipo punto a partir de sus coordenadas de longitud y latitud. Posteriormente, se transformaron al mismo sistema de referencia de coordenadas utilizado por los polígonos del Marco Geoestadístico y se realizó un cruce espacial para identificar la alcaldía en la que se localiza cada establecimiento.
+
+El cruce espacial permitió asignar una alcaldía a la totalidad de los 2,275 establecimientos, sin registros fuera de los polígonos de la Ciudad de México. Además, los conteos obtenidos mediante este procedimiento coincidieron con los obtenidos previamente utilizando la variable `municipio` del DENUE.
+
+### 7. Distribución absoluta de gimnasios por alcaldía
+
+A partir del cruce espacial se calculó el número de centros de acondicionamiento físico localizado dentro de cada una de las 16 alcaldías y se construyó un mapa coroplético utilizando el conteo absoluto de establecimientos.
+
+El mapa muestra diferencias importantes en el número de establecimientos entre alcaldías. Iztapalapa presenta el mayor conteo, con 422 gimnasios, seguida por Gustavo A. Madero con 303. En contraste, Milpa Alta registra 43 establecimientos, el menor número entre las alcaldías de la Ciudad de México.
+
+Sin embargo, el conteo absoluto está influido por el tamaño de la población de cada alcaldía. Por esta razón, una alcaldía con un número elevado de gimnasios no necesariamente presenta una mayor oferta relativa para sus habitantes. Para considerar estas diferencias, posteriormente se normalizará el número de establecimientos utilizando la población de cada alcaldía.
+
+![Número de gimnasios por alcaldía](img/mapa_conteo_gimnasios.png)
+
+[Ver mapa interactivo](https://andres-padronqu.github.io/An-lisis-Datos-Espaciales/outputs/mapas/mapa_conteo_gimnasios.html)
+
+### 8. Normalización por población
+
+Para comparar la disponibilidad relativa de centros de acondicionamiento físico entre alcaldías, se incorporó información de población del Censo de Población y Vivienda 2020 del INEGI. Se utilizó la población total de cada alcaldía y se calculó el número de gimnasios por cada 10,000 habitantes mediante la siguiente expresión:
+
+**Gimnasios por cada 10,000 habitantes = (Número de gimnasios / Población total) × 10,000**
+
+La normalización modifica de manera importante el orden observado a partir de los conteos absolutos. Benito Juárez presenta la mayor tasa, con 3.11 gimnasios por cada 10,000 habitantes, seguida por Cuauhtémoc con 2.99, Tláhuac con 2.83, Milpa Alta con 2.82 y Cuajimalpa de Morelos con 2.80.
+
+En contraste, algunas alcaldías que presentan un número elevado de establecimientos en términos absolutos descienden al considerar el tamaño de su población. Iztapalapa, por ejemplo, ocupa el primer lugar en número absoluto con 422 gimnasios, pero registra aproximadamente 2.30 gimnasios por cada 10,000 habitantes.
+
+![Gimnasios por cada 10,000 habitantes](img/mapa_gimnasios_10000.png)
+
+[Ver mapa interactivo](https://andres-padronqu.github.io/An-lisis-Datos-Espaciales/outputs/mapas/mapa_gimnasios_10000.html)
