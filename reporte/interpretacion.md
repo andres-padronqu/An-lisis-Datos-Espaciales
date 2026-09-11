@@ -115,3 +115,25 @@ En contraste, algunas alcaldías que presentan un número elevado de establecimi
 ![Gimnasios por cada 10,000 habitantes](img/mapa_gimnasios_10000.png)
 
 [Ver mapa interactivo](https://andres-padronqu.github.io/An-lisis-Datos-Espaciales/outputs/mapas/mapa_gimnasios_10000.html)
+
+### 9. Comparación e interpretación de resultados
+
+La comparación entre el número absoluto de gimnasios y la tasa por cada 10,000 habitantes muestra que el tamaño de la población modifica de manera importante la interpretación de la distribución de los establecimientos.
+
+En términos absolutos, Iztapalapa ocupa el primer lugar con 422 gimnasios, seguida por Gustavo A. Madero con 303 y Álvaro Obregón con 170. Sin embargo, al normalizar por población, Iztapalapa desciende del primer al duodécimo lugar, con 2.30 gimnasios por cada 10,000 habitantes. De manera similar, Gustavo A. Madero pasa del segundo al noveno lugar y Álvaro Obregón del tercero al decimotercero.
+
+El comportamiento contrario se observa en alcaldías con menor población. Benito Juárez pasa del sexto lugar en número absoluto al primer lugar en términos relativos, con 3.11 gimnasios por cada 10,000 habitantes. Cuauhtémoc pasa del quinto al segundo lugar, mientras que Tláhuac pasa del noveno al tercero. Destaca especialmente Milpa Alta, que a pesar de ocupar el último lugar en número absoluto, con 43 establecimientos, asciende al cuarto lugar después de normalizar por población, con 2.82 gimnasios por cada 10,000 habitantes. Cuajimalpa de Morelos presenta un comportamiento similar, al pasar del decimoquinto al quinto lugar.
+
+Estos resultados muestran la importancia de considerar el tamaño de la población al comparar unidades geográficas. El conteo absoluto permite identificar las alcaldías donde se concentra el mayor número de establecimientos, mientras que la tasa por cada 10,000 habitantes permite comparar su oferta relativa respecto al número de habitantes. Por lo tanto, ambos mapas responden preguntas distintas y su análisis conjunto ofrece una visión más completa de la distribución espacial de los centros de acondicionamiento físico en la Ciudad de México.
+
+## Referencias
+
+Castro, C. (2026). *Datos espaciales* [Material de clase]. Seminario de Métodos Analíticos de la Empresa, Maestría en Ciencia de Datos, Instituto Tecnológico Autónomo de México (ITAM).
+
+Castro, C. (2026). *Scripts y ejemplos de análisis de datos espaciales en R* [Material de clase]. Seminario de Métodos Analíticos de la Empresa, Maestría en Ciencia de Datos, Instituto Tecnológico Autónomo de México (ITAM).
+
+Instituto Nacional de Estadística y Geografía (INEGI). (2026). *Directorio Estadístico Nacional de Unidades Económicas (DENUE), mayo de 2026*. INEGI.
+
+Instituto Nacional de Estadística y Geografía (INEGI). (2025). *Marco Geoestadístico 2025. Áreas Geoestadísticas Municipales (AGEM), Ciudad de México*. INEGI.
+
+Instituto Nacional de Estadística y Geografía (INEGI). (2020). *Censo de Población y Vivienda 2020. Principales resultados por localidad (ITER), Ciudad de México*. INEGI.
