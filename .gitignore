@@ -4,3 +4,8 @@
 # Datos crudos de INEGI / DENUE
 data/raw/*
 !data/raw/.gitkeep
+
+# Datos/ historial de R
+.Rhistory
+.RData
+.Rproj.user/

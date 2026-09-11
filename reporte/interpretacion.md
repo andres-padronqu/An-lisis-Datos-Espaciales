@@ -126,7 +126,9 @@ El comportamiento contrario se observa en alcaldías con menor población. Benit
 
 Estos resultados muestran la importancia de considerar el tamaño de la población al comparar unidades geográficas. El conteo absoluto permite identificar las alcaldías donde se concentra el mayor número de establecimientos, mientras que la tasa por cada 10,000 habitantes permite comparar su oferta relativa respecto al número de habitantes. Por lo tanto, ambos mapas responden preguntas distintas y su análisis conjunto ofrece una visión más completa de la distribución espacial de los centros de acondicionamiento físico en la Ciudad de México.
 
-## Referencias
+Desde una perspectiva de toma de decisiones, estos resultados pueden utilizarse como un primer diagnóstico para identificar alcaldías con una oferta relativa alta o baja de centros de acondicionamiento físico. Por ejemplo, mientras Benito Juárez presenta la mayor cantidad de gimnasios por habitante, alcaldías como Azcapotzalco, Venustiano Carranza o Coyoacán muestran tasas relativamente menores. Para una empresa interesada en evaluar la apertura de un nuevo establecimiento, estas diferencias podrían utilizarse como un primer criterio para seleccionar zonas que requieran un análisis más detallado. Sin embargo, la tasa por población no es suficiente por sí sola para determinar una ubicación óptima, ya que también sería necesario considerar factores como ingreso, edad de la población, accesibilidad, precios, competencia cercana y distribución de los establecimientos dentro de cada alcaldía.
+
+## 10. Referencias
 
 Castro, C. (2026). *Datos espaciales* [Material de clase]. Seminario de Métodos Analíticos de la Empresa, Maestría en Ciencia de Datos, Instituto Tecnológico Autónomo de México (ITAM).
 
